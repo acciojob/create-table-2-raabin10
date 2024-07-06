@@ -14,7 +14,7 @@ function createTable() {
     const row = table.insertRow(i);
     for (let j = 0; j < cn; j++) {
       const cell = row.insertCell(j);
-      cell.textContent = `Row-${i + 1} Column-${j + 1}`;
+      cell.textContent = `Row-${i } Column-${j }`;
     }
   }
 }
